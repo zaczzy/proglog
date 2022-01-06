@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package log.v1;
 
-option go_package= "github.com/zaczzy/api/log_v1";
+option go_package= "github.com/zaczzy/proglog/api/log_v1";
 
 message Record {
   bytes value = 1;
